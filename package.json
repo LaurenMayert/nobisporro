@@ -1,0 +1,30 @@
+{
+  "name": "nobisporro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "VivaEmard",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^5.2.3",
+    "@types/node": "^10.3.4",
+    "cz-conventional-changelog": "^2.1.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.13.7",
+    "semantic-release": "^15.6.0",
+    "ts-node": "^6.1.2",
+    "typescript": "^2.9.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaurenMayert/nobisporro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LaurenMayert/nobisporro.git/issues"
+  },
+  "homepage": "https://github.com/LaurenMayert/nobisporro.git"
+}
